@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [My Demo test Suite]">
+  <parameter name="fname" value="Richards"/>
+  <parameter name="lname" value="jonh"/>
+  <parameter name="uname" value="QEdge"/>
+  <parameter name="pword" value="demo123"/>
+  <test name="New Employee Registration TestCase(failed)">
+    <parameter name="fname" value="Richards"/>
+    <parameter name="lname" value="jonh"/>
+    <classes>
+      <class name="tests.EmployeeRegTest">
+        <methods>
+          <include name="checkEmpReg"/>
+        </methods>
+      </class> <!-- tests.EmployeeRegTest -->
+    </classes>
+  </test> <!-- New Employee Registration TestCase(failed) -->
+</suite> <!-- Failed suite [My Demo test Suite] -->

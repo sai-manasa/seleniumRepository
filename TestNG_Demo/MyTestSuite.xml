@@ -1,0 +1,20 @@
+<suite name="My Demo test Suite">
+<parameter name="appurl" value="http://orangehrm.qedgetech.com"></parameter>
+
+	<test name="Login TestCase">
+	<parameter name="uname" value="QEdge"></parameter>
+	<parameter name="pword" value="demo123"></parameter>
+		<classes>
+			<class name="tests.LoginTest"></class>
+		</classes>
+	</test>
+
+	<test name="New Employee Registration TestCase">
+	<parameter name="fname" value="Richards"></parameter>
+	<parameter name="lname" value="jonh"></parameter>
+		<classes>
+			<class name="tests.EmployeeRegTest"></class>
+		</classes>	
+	</test>
+
+</suite>

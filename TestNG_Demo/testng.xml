@@ -1,0 +1,21 @@
+<suite name="GMail Test Suite">
+<parameter ></parameter>
+
+	<test name="GMail Send Mail TestCase">	
+	<parameter name="a" value="demo.qedge@gmail.com"></parameter>
+	<parameter name="b" value="I am Learing Selenium"></parameter>
+	<parameter name="c" value="In 11:30Am batch"></parameter>
+	
+		<classes>
+			<class name="demos.SendMailTest"></class>			
+		</classes>	
+	</test>
+
+	<test name="GMail Receive Mail TestCase">	
+		
+		<classes>
+			<class name="demos.ReceiveMailTest"></class>
+		</classes>	
+	</test>
+
+</suite>

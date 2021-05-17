@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="My Demo test Suite" duration-ms="332" started-at="2021-04-22T11:43:09Z" finished-at="2021-04-22T11:43:09Z">
+    <groups>
+    </groups>
+    <test name="Login TestCase" duration-ms="188" started-at="2021-04-22T11:43:09Z" finished-at="2021-04-22T11:43:09Z">
+      <class name="tests.LoginTest">
+        <test-method status="PASS" signature="launchApp(java.lang.String)[pri:0, instance:tests.LoginTest@548b7f67]" name="launchApp" is-config="true" duration-ms="90" started-at="2021-04-22T17:13:09Z" finished-at="2021-04-22T17:13:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://orangehrm.qedgetech.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="checkLogin(java.lang.String, java.lang.String)[pri:1, instance:tests.LoginTest@548b7f67]" name="checkLogin" duration-ms="22" started-at="2021-04-22T17:13:09Z" finished-at="2021-04-22T17:13:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[QEdge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[demo123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLogin -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- Login TestCase -->
+    <test name="New Employee Registration TestCase" duration-ms="20" started-at="2021-04-22T11:43:09Z" finished-at="2021-04-22T11:43:09Z">
+      <class name="tests.EmployeeRegTest">
+        <test-method status="PASS" signature="launchApp(java.lang.String)[pri:0, instance:tests.EmployeeRegTest@5419f379]" name="launchApp" is-config="true" duration-ms="2" started-at="2021-04-22T17:13:09Z" finished-at="2021-04-22T17:13:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://orangehrm.qedgetech.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="checkEmpReg(java.lang.String, java.lang.String)[pri:0, instance:tests.EmployeeRegTest@5419f379]" name="checkEmpReg" duration-ms="7" started-at="2021-04-22T17:13:09Z" finished-at="2021-04-22T17:13:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Richards]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jonh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkEmpReg -->
+      </class> <!-- tests.EmployeeRegTest -->
+    </test> <!-- New Employee Registration TestCase -->
+  </suite> <!-- My Demo test Suite -->
+</testng-results>
