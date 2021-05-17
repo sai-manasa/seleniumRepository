@@ -17,6 +17,7 @@ public class AppUtils {
 		public  static  void launchApp()
 		{
 			//System.out.println("before tesst");
+			//code updated by me
 			System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 			driver=new ChromeDriver();
 			driver.manage().deleteAllCookies();
