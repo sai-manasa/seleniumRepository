@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Calculator test suite" duration-ms="40287" started-at="2021-05-10T11:02:05Z" finished-at="2021-05-10T11:02:45Z">
+    <groups>
+    </groups>
+    <test name="Addition test" duration-ms="22377" started-at="2021-05-10T11:02:05Z" finished-at="2021-05-10T11:02:27Z">
+      <class name="calci_testcases.AdditionTest">
+        <test-method status="PASS" signature="checkAdd()[pri:0, instance:calci_testcases.AdditionTest@28feb3fa]" name="checkAdd" duration-ms="22278" started-at="2021-05-10T16:32:05Z" finished-at="2021-05-10T16:32:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAdd -->
+      </class> <!-- calci_testcases.AdditionTest -->
+    </test> <!-- Addition test -->
+    <test name="Subtraction test" duration-ms="17810" started-at="2021-05-10T11:02:27Z" finished-at="2021-05-10T11:02:45Z">
+      <class name="calci_testcases.SubtractionTest">
+        <test-method status="PASS" signature="launchApp(java.lang.String)[pri:0, instance:calci_testcases.SubtractionTest@d8355a8]" name="launchApp" is-config="true" duration-ms="19447" started-at="2021-05-10T16:31:45Z" finished-at="2021-05-10T16:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://calc.qedgetech.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="checkSub()[pri:0, instance:calci_testcases.SubtractionTest@d8355a8]" name="checkSub" duration-ms="17755" started-at="2021-05-10T16:32:27Z" finished-at="2021-05-10T16:32:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSub -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:calci_testcases.SubtractionTest@d8355a8]" name="closeApp" is-config="true" duration-ms="3637" started-at="2021-05-10T16:32:45Z" finished-at="2021-05-10T16:32:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- calci_testcases.SubtractionTest -->
+    </test> <!-- Subtraction test -->
+  </suite> <!-- Calculator test suite -->
+</testng-results>

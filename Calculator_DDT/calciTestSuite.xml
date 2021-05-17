@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Calculator test suite">
+<parameter name="url" value="http://calc.qedgetech.com"/>
+
+<test name="Addition test">
+<classes>
+<class name="calci_testcases.AdditionTest"></class>
+</classes>
+</test>
+
+
+
+<test name="Subtraction test">
+<classes>
+<class name="calci_testcases.SubtractionTest"></class>
+</classes>
+</test>
+
+
+</suite>
