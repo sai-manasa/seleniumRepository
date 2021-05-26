@@ -1,0 +1,44 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="orange hrm test suite">
+
+<parameter name="url" value="http://orangehrm.qedgetech.com"/>
+<parameter name="auname" value="Admin"/>
+<parameter name="apword" value="Qedge123!@#"/>
+
+	<!--  
+<test name="Admin test case">
+		
+		<classes>
+			<class name="RunTestCasesWdTestNG.LoginAsAdmin_TestNg"/>
+		</classes>
+</test>
+	
+<test name="Add employee test case">
+
+	<parameter name="fname" value="check12"></parameter>
+	<parameter name="lname" value="check23"></parameter>
+	
+  <classes>
+			<class name="RunTestCasesWdTestNG.EmployeeTestCase_TestNGDemo"/>
+   </classes>
+</test>
+	
+	
+	
+	<test name="adding user ">
+	<classes>
+		<class name="RunTestCasesWdTestNG.AddUser_Testng"></class>
+	</classes>
+	</test>
+	-->
+	
+	<test name="Employee Login">
+	 <classes>
+	  <class name="RunTestCasesWdTestNG.EmployeeLogin_Testng">
+	  </class>
+	 </classes>
+	
+	</test>
+</suite>
+
+

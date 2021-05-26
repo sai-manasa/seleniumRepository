@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Login test suite">
+
+<parameter name="url" value="http://orangehrm.qedgetech.com"/>
+<parameter name="auname" value="Admin"/>
+<parameter name="apword" value="Qedge123!@#"/>
+
+	<!--  
+<test name="Admin login valid data">
+		
+		<classes>
+			<class name="runTestCasesWdDD.AdminLoginWdValidData"/>
+		</classes>
+</test>
+-->
+
+<test name="Admin login wd Invalid data">
+<classes>
+			<class name="runTestCasesWdDD.AdminLoginWdInvalidData"/>
+		</classes>
+</test>
+	
+</suite>
+
+
